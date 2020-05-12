@@ -44,7 +44,7 @@ confirmed
 ? (
 <Bar 
 data = {{
-labels : ['Infected', 'Recovered' , 'Deaths'],
+labels : ['Infected', 'Recovered' , 'Deceased'],
 datasets : [{
 label: 'People',
 backgroundColor : [ 'rgba(4, 123, 248, 0.75)', 'rgba(113, 194, 26, 0.75)', 'rgba(255, 26, 26, 0.75)'],
