@@ -60,9 +60,10 @@ title : {display: true, text:`Current state in ${country}`}
 );
 
     return (
+
         <div className={styles.container}>
          {country ?  barChart :  lineChart}
-        </div>
+      </div>
     )
 }
 

@@ -25,7 +25,12 @@ handleCountryChange = async (country) =>{
                 <Cards data={data}/>
                 <CountryPicker handleCountryChange={this.handleCountryChange} />
                 <Chart data={data} country={country}/>
-                
+               <div className={styles.footer}>
+               <ul>
+                    <li><pre>&lt; <span>&#x2764;</span>&#47;&gt;</pre></li>
+                    <li><a href="mailto:shreeswetass@gmail.com">shreesweta</a></li>
+                </ul>
+               </div>
             </div>
         )
     }

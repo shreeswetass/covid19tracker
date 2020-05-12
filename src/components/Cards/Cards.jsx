@@ -10,7 +10,8 @@ return 'Loading...'
  }
   return (
     <Fragment>
- <h2  justify="center">{new Date(lastUpdate).toDateString()}</h2>
+      <h1>COVID<span>19</span></h1>
+ <h2>{new Date(lastUpdate).toDateString()}</h2>
     <div className={styles.container}>
       <Grid container spacing={3} justify="center">
         <Grid item  xs={12} md={3} component={Card} className={cx(styles.card, styles.infected)}>

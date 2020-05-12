@@ -2,8 +2,14 @@
 .container{
     display: flex;
     align-items: center;
-   width: 85%
+   width: 85%;
+   margin-bottom: 50px;
 }
+
+
+
+
+
 
 @media (max-width : 767px){
     .container { width: 100%;}
