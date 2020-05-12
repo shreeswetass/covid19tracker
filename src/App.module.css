@@ -18,8 +18,8 @@ body{
         color: #fff;
         padding: 0;}
     .footer ul li {display: inline-block;}
-    .footer ul li span{color: #ff1a1a;}
+    .footer ul li span{color: #a20000;}
     .footer ul li a{color :#dcdcdc; padding: 0 10px;}
 @media (max-width : 767px){
-.container{margin: 0 10%;}
+
 }
