@@ -47,7 +47,7 @@ data = {{
 labels : ['Infected', 'Recovered' , 'Deaths'],
 datasets : [{
 label: 'People',
-backgroundColor : [ 'rgba(0, 0, 255, 0.5)', 'rgba(0, 255, 0, 0.5)', 'rgba(255, 0, 0, 0.5)'],
+backgroundColor : [ 'rgba(4, 123, 248, 0.75)', 'rgba(113, 194, 26, 0.75)', 'rgba(255, 26, 26, 0.75)'],
 data : [confirmed.value, recovered.value, deaths.value]
 }]
 }}

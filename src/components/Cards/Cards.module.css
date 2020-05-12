@@ -1,18 +1,39 @@
-.container{ margin: 50px 0;}
-.card { margin: 0 2% !important;}
-
+.container{ margin:15px 0;display: flex;
+    align-items: center;
+    width: 70%;}
+h2{text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    color: #6c757d;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.card { margin: 0 2% !important;
+    border-radius: 0 !important;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.1), 
+    0px 1px 1px 0px rgba(0,0,0,0.1), 0px 1px 3px 0px rgba(0,0,0,0.1) !important;
+}
+ h5{    margin-bottom: 10px;}
+.card div{padding-bottom: 16px !important;}
+.card div p:nth-child(1){font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;}
+.card p{font-size: 12px;
+    font-family: 'Maven Pro', sans-serif;
+    color: #6c757d;
+    font-weight: 500;}
 .infected {
-    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+    border-bottom: 10px solid rgba(4, 123, 248);
 }
-
+.infected h5{color:rgba(4, 123, 248, 0.75);}
 .recovered {
-    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+    border-bottom: 10px solid rgb(113, 194, 26);
 }
-
+.recovered h5{color:rgba(113, 194, 26, 0.75);}
 .deaths {
-    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+    border-bottom: 10px solid rgb(255, 26, 26);
 }
-
+.deaths h5{color: rgba(255, 26, 26, 0.75);}
 @media (max-width : 767px){
     .card{margin: 2% 0 !important;}
+    .container { width: 100%;}
 }
